@@ -12,17 +12,24 @@
   </head>
 
   <body>
-    <header class="header">
-        <!-- logo goes here -->
-        <h1 class="header__logo">Port Manager</h1>
-    </header>
     <main>
       <div class="gradient">
         <section class="section hero">
           <div class="hero__content">
+            <div class="brand">
+                <div class="brand__logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                      <path fill="#414D4D" fill-rule="evenodd" d="M13 0a3 3 0 013 3v10a3 3 0 01-3 3v-4.5a.5.5 0 10-1 0V16h-2v-4.5a.5.5 0 00-.41-.492L9.5 11a.5.5 0 00-.492.41L9 11.5V16H7v-4.5a.5.5 0 00-.41-.492L6.5 11a.5.5 0 00-.492.41L6 11.5V16H4v-4.5a.5.5 0 00-.41-.492L3.5 11a.5.5 0 00-.492.41L3 11.5V16a3 3 0 01-3-3V3a3 3 0 013-3h10z"/>
+                    </svg>
+                </div>
+                <h1 class="brand__name">Port Manager</h1>
+            </div>
             <h2 class="hero__title">The fastest way to manage ports on your Mac</h2>
             <p class="hero__body">Find, open and kill processes listening on TCP ports, in just a couple of clicks.</p>
-            <a class="hero__button" href="https://gum.co/xTJlY?wanted=true" target="_blank">Get Port Manager for macOS</a>
+            <div class="download">
+              <a class="download__button" href="https://gum.co/xTJlY?wanted=true" target="_blank">Get Port Manager for macOS</a>
+              <div class="download__details">Works with macOS Sierra (10.12 ) and above.</div>
+            </div>
           </div>
         </section>
         <section class="section features">
@@ -52,7 +59,91 @@
             </div>
           </section>
       </div>
+      <!-- End gradient -->
+      <section class="section timeline">
+          <h3 class="section__heading section__heading--centered timeline__heading">If you’re a web developer, this story will sound all too familiar.</h3>
+          <div class="timeline__entries">
+            <div class="timeline__entry">
+              <div class="timeline__timestamp">
+                9.02 a.m.
+              </div>
+              <div class="timeline__image"><span class="timeline__line"></span>👩‍💻</div>
+              <d class="timeline__copy">
+                  <p>You fire up a project in terminal and are interrupted by an obnoxious EADDRINUSE message.</p>
+              </d>
+            </div>
+
+            <div class="timeline__entry">
+                <div class="timeline__timestamp">
+                  9.04 a.m.
+                </div>
+                <div class="timeline__image">💭</div>
+                <div class="timeline__copy">
+                    <p><em>"How do I kill a process on mac?"</em></p>
+
+                    <p>Frustrated, you do some Googling and find a series of commands on StackOverflow that you can use.</p>
+                </div>
+              </div>
+
+              <div class="timeline__entry">
+                  <div class="timeline__timestamp">
+                    9.07 a.m.
+                  </div>
+                  <div class="timeline__image">💥</div>
+                  <div class="timeline__copy">
+                      <p>You fumble around in terminal with some unfamiliar commands you found until you manage to kill the process.</p>
+                  </div>
+              </div>
+
+              <div class="timeline__entry">
+                  <div class="timeline__timestamp">
+                    1 week later...
+                  </div>
+                  <div class="timeline__image">🤤</div>
+                  <div class="timeline__copy">
+                      <p>Guess what! It happens again and you’ve forgotten everything so you repeat the steps above.</p>
+                  </div>
+              </div>
+            </div>
+      </section>
+      <section class="section product-intro">
+        <h3 class="section__heading section__heading--centered ">We've been there. It's mildly irritating.</h3>
+        <h3 class="section__heading section__heading--centered ">Well, no more! Freeing up a port is now as simple as:</h3>
+      </section>
+
+      <div class="desktop">
+        <div class="menu-bar"></div>
+        <div class="wallpaper">
+          <img class="menu" src="/img/menu.svg"  />
+
+          <section class="section product-info">
+              <div class="download download--centered">
+                  <a class="download__button" href="https://gum.co/xTJlY?wanted=true" target="_blank">Get Port Manager for macOS</a>
+                  <div class="download__details">Works with macOS Sierra (10.12 ) and above.</div>
+              </div>
+          </section>
+        </div>
+      </div>
+
     </main>
+    <footer class="footer-container">
+      <section class="section footer">
+          <div class="footer__logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                <path fill="#fff" fill-rule="evenodd" d="M13 0a3 3 0 013 3v10a3 3 0 01-3 3v-4.5a.5.5 0 10-1 0V16h-2v-4.5a.5.5 0 00-.41-.492L9.5 11a.5.5 0 00-.492.41L9 11.5V16H7v-4.5a.5.5 0 00-.41-.492L6.5 11a.5.5 0 00-.492.41L6 11.5V16H4v-4.5a.5.5 0 00-.41-.492L3.5 11a.5.5 0 00-.492.41L3 11.5V16a3 3 0 01-3-3V3a3 3 0 013-3h10z"/>
+              </svg>
+          </div>
+          <h3 class="footer__copyright  section__heading section__heading--centered">
+            Port Manager
+          </h3>
+          <p class="footer__credits">
+            Contact support <a class="footer_link" href="mailto:support@portmanager.app">support@portmanager.app</a> · Illustrations by <a class="footer_link"  href="http://absurd.design/">absurd.design</a>
+          </p>
+      </section>
+      <div class="feedback-strip">
+          Got feedback? We'd like to hear from you! feedback@portmanager.app
+      </div>
+    </footer>
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://gumroad.com/js/gumroad.js"></script>
     <script>
