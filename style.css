@@ -177,7 +177,7 @@ img {
 }
 
 .wallpaper {
-  background: url("img/desktop.png"),  #EDF1F1;
+  background: url("img/desktop.png"),  rgb(238, 249, 249);
   background-position: center;
 }
 
