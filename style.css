@@ -75,6 +75,15 @@ img {
   font-weight: 600;
 }
 
+.download__button:hover {
+  background: rgb(60, 86, 158);
+}
+
+.download__button:active {
+  background: rgb(46, 66, 121);
+}
+
+
 .download__details {
   font-size: 0.8rem;
 }
@@ -93,14 +102,6 @@ img {
 .hero__body {
   line-height: 1.6;
   font-size: 1.2rem;
-}
-
-.hero__button:hover {
-  background: rgb(60, 86, 158);
-}
-
-.hero__button:active {
-  background: rgb(46, 66, 121);
 }
 
 .features__item {
