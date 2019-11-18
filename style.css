@@ -120,7 +120,7 @@ img {
 .feature__image {
   height: 40px;
   width: 40px;
-  background: #414D4D;
+  background: #bdd8d8;
   border-radius: 50%;
   margin-right: 1.5rem;
   flex-shrink: 0;
@@ -224,7 +224,7 @@ img {
 @media only screen and (min-width: 768px) {
   .illustration {
     position: absolute;
-    right: -2rem;
+    right: 4rem;
     z-index: 0;
   }
 
