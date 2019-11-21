@@ -92,7 +92,6 @@ img {
 
 .hero {
   padding-top: 48px;
-  padding-bottom: 48px;
 }
 
 .hero__title {
@@ -220,6 +219,10 @@ img {
   color: #C0C0C0;
 }
 
+.illustration {
+  margin-top: 4rem;
+}
+
 /** Breakpoints for larger devices **/
 @media only screen and (min-width: 768px) {
   .illustration {
@@ -227,10 +230,12 @@ img {
     left: 54%;
     z-index: 0;
     top: 25%;
+    margin: 0;
   }
 
   .hero {
     padding-top: 144px;
+    padding-bottom: 48px;
   }
 
   .hero__content {
