@@ -1,137 +1,140 @@
 
-<svg width="460px" height="226px" viewBox="0 0 460 226" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="448px" height="219px" viewBox="0 0 448 219" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
-        <path d="M0,0 L220,0 L220,184 C220,186.761424 217.761424,189 215,189 L5,189 C2.23857625,189 3.38176876e-16,186.761424 0,184 L0,0 L0,0 Z" id="path-1"></path>
-        <filter x="-8.2%" y="-6.9%" width="116.4%" height="119.0%" filterUnits="objectBoundingBox" id="filter-2">
-            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.299488741 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        <path d="M0,19 L220,19 L220,207 C220,209.209139 218.209139,211 216,211 L4,211 C1.790861,211 2.705415e-16,209.209139 0,207 L0,19 L0,19 Z" id="path-1"></path>
+        <filter x="-3.6%" y="-2.1%" width="107.3%" height="108.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.8   0 0 0 0 0.8   0 0 0 0 0.8  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-3" x="0" y="0" width="220" height="50" rx="6"></rect>
-        <filter x="-8.2%" y="-26.0%" width="116.4%" height="172.0%" filterUnits="objectBoundingBox" id="filter-4">
-            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.299488741 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        <rect id="path-3" x="220" y="57" width="220" height="71" rx="4"></rect>
+        <filter x="-3.6%" y="-5.6%" width="107.3%" height="122.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.8   0 0 0 0 0.8   0 0 0 0 0.8  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="Visual" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop" transform="translate(-321.000000, -1461.000000)">
-            <g id="Group-4" transform="translate(331.000000, 1461.000000)">
-                <rect id="Rectangle" fill="#3F95FD" x="0" y="0" width="37" height="22"></rect>
-                <g id="Group" transform="translate(19.000000, 4.000000)">
-                    <path d="M0,10.2380952 L0,3.23809524 C-6.46995335e-16,1.58124099 1.34314575,0.238095238 3,0.238095238 L9.19047619,0.238095238 C10.8473304,0.238095238 12.1904762,1.58124099 12.1904762,3.23809524 L12.1904762,10.2380952 C12.1904762,11.8949495 10.8473304,13.2380952 9.19047619,13.2380952 L3,13.2380952 C1.34314575,13.2380952 4.9460801e-16,11.8949495 0,10.2380952 Z" id="Path-2" fill="#FFFFFF"></path>
-                    <path d="M3.42857143,7.52380952 L3.42857143,13.6190476" id="Line-5" stroke="#3F95FD" stroke-linecap="square"></path>
-                    <path d="M5.32857143,7.52380952 L5.32857143,13.6190476" id="Line-5" stroke="#3F95FD" stroke-linecap="square"></path>
-                    <path d="M7.22857143,7.52380952 L7.22857143,13.6190476" id="Line-5" stroke="#3F95FD" stroke-linecap="square"></path>
-                    <path d="M9.12857143,7.52380952 L9.12857143,13.6190476" id="Line-5" stroke="#3F95FD" stroke-linecap="square"></path>
+    <g id="Menubar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-85.000000, -130.000000)">
+            <g id="Group-2" transform="translate(89.000000, 130.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                 </g>
-                <g id="Menu-/-Application" transform="translate(0.000000, 22.000000)">
-                    <g id="Menu-/-_Resources-/-Application-Background">
-                        <g id="Windows-/-Frames-/-Menubar-Menu-Frame">
-                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                            <path stroke-opacity="0.1" stroke="#000000" stroke-width="0.5" d="M-0.25,-0.25 L220.25,-0.25 L220.25,184 C220.25,186.899495 217.899495,189.25 215,189.25 L5,189.25 C2.10050506,189.25 -0.25,186.899495 -0.25,184 L-0.25,-0.25 Z" fill-opacity="0.98" fill="#FAFAFA" fill-rule="evenodd"></path>
-                        </g>
-                    </g>
-                    <g id="Menu-/-Application-/-Inactive-Item-(with-Arrow)" transform="translate(0.000000, 3.000000)" fill="#BDBDBD" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
-                        <text id="Item">
-                            <tspan x="21" y="15">Listening Processes</tspan>
-                        </text>
-                    </g>
-                    <g id="Menu-/-Application-/-Inactive-Item-(with-Arrow)" transform="translate(0.000000, 91.000000)" fill="#BDBDBD" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
-                        <text id="Item">
-                            <tspan x="21" y="15">Preferences</tspan>
-                        </text>
-                    </g>
-                    <g id="Menu-/-Divider" transform="translate(0.000000, 157.000000)" fill="#000000" fill-opacity="0.07">
-                        <rect id="Divider" x="0" y="0" width="220" height="2"></rect>
-                    </g>
-                    <g id="Menu-/-Application-/-Item-(with-Arrow)" transform="translate(0.000000, 129.000000)" fill="#4C4C4C" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
-                        <text id="Item">
-                            <tspan x="21" y="15">About Port Manager</tspan>
-                        </text>
-                    </g>
-                    <g id="Menu-/-Application-/-Item-(with-Arrow)" transform="translate(0.000000, 110.000000)" fill="#4C4C4C" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
-                        <text id="Item">
-                            <tspan x="21" y="15">Open at Login</tspan>
-                        </text>
-                    </g>
-                    <g id="Menu-/-Application-/-Item-(with-Shortcut)" transform="translate(0.000000, 164.000000)" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
-                        <text id="Shortcut" font-family="LucidaGrande, Lucida Grande" fill="#444444">
-                            <tspan x="187.410352" y="15">⌘</tspan>
-                            <tspan x="201.260352" y="15" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif">Q</tspan>
-                        </text>
-                        <text id="Item" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" fill="#4C4C4C">
-                            <tspan x="21" y="15">Quit</tspan>
-                        </text>
-                    </g>
-                    <g id="Menu-/-Divider" transform="translate(0.000000, 84.000000)" fill="#000000" fill-opacity="0.07">
-                        <rect id="Divider" x="0" y="0" width="220" height="2"></rect>
-                    </g>
-                    <g id="Menu-/-Application-/-Item-(with-Arrow)" transform="translate(0.000000, 60.000000)">
-                        <g id="Icons-/-Menu-/-Arrow" transform="translate(199.000000, 4.000000)" fill="#434343" fill-rule="evenodd">
-                            <polygon id="Arrow" points="0 10.5 7.49400542e-16 0.5 9 5.5"></polygon>
-                        </g>
-                        <text id="Item" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="normal" letter-spacing="-0.150000006" fill="#4C4C4C">
-                            <tspan x="21" y="15">5000 · Python</tspan>
-                        </text>
-                    </g>
-                    <g id="Menu-/-Application-/-Item-(with-Arrow)" transform="translate(0.000000, 22.000000)">
-                        <g id="Icons-/-Menu-/-Arrow" transform="translate(199.000000, 4.000000)" fill="#434343" fill-rule="evenodd">
-                            <polygon id="Arrow" points="0 10.5 7.49400542e-16 0.5 9 5.5"></polygon>
-                        </g>
-                        <text id="Item" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="normal" letter-spacing="-0.150000006" fill="#4C4C4C">
-                            <tspan x="21" y="15">3000 · Node</tspan>
-                        </text>
-                    </g>
-                    <g id="Menu-/-Application-/-Selected-Item-(with-Arrow)" transform="translate(0.000000, 41.000000)">
-                        <rect id="Highlight" fill="#3F95FD" fill-rule="evenodd" x="0" y="0" width="220" height="19"></rect>
-                        <g id="Icons-/-Menu-/-Arrow-Selected" transform="translate(199.000000, 4.000000)" fill="#FFFFFF" fill-rule="evenodd">
-                            <polygon id="Arrow" points="0 10.5 7.49400542e-16 0.5 9 5.5"></polygon>
-                        </g>
-                        <text id="Item" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="normal" letter-spacing="-0.150000006" fill="#FFFFFF">
-                            <tspan x="21" y="15">8888 · httpd</tspan>
-                        </text>
-                    </g>
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
                 </g>
-                <g id="Group-3" transform="translate(220.000000, 57.000000)">
-                    <g id="Background">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
-                        <rect stroke-opacity="0.1" stroke="#000000" stroke-width="0.5" fill-opacity="0.98" fill="#FAFAFA" fill-rule="evenodd" x="-0.25" y="-0.25" width="220.5" height="50.5" rx="6"></rect>
+                <g id="Group-4">
+                    <rect id="Rectangle" fill="#3F95FD" x="0" y="0" width="37" height="22"></rect>
+                    <g id="Group" transform="translate(19.000000, 4.000000)">
+                        <path d="M0,10.2380952 L0,3.23809524 C-6.46995335e-16,1.58124099 1.34314575,0.238095238 3,0.238095238 L9.19047619,0.238095238 C10.8473304,0.238095238 12.1904762,1.58124099 12.1904762,3.23809524 L12.1904762,10.2380952 C12.1904762,11.8949495 10.8473304,13.2380952 9.19047619,13.2380952 L3,13.2380952 C1.34314575,13.2380952 4.9460801e-16,11.8949495 0,10.2380952 Z" id="Path-2" fill="#FFFFFF"></path>
+                        <path d="M3.42857143,7.52380952 L3.42857143,13.6190476" id="Line-5" stroke="#3F95FD" stroke-linecap="square"></path>
+                        <path d="M5.32857143,7.52380952 L5.32857143,13.6190476" id="Line-5" stroke="#3F95FD" stroke-linecap="square"></path>
+                        <path d="M7.22857143,7.52380952 L7.22857143,13.6190476" id="Line-5" stroke="#3F95FD" stroke-linecap="square"></path>
+                        <path d="M9.12857143,7.52380952 L9.12857143,13.6190476" id="Line-5" stroke="#3F95FD" stroke-linecap="square"></path>
                     </g>
-                    <g id="Menu-/-Application" transform="translate(0.000000, 6.000000)">
-                        <g id="Menu-/-Application-/-Item-(with-Arrow)" fill="#4C4C4C" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
+                    <g id="Menu-/-Application" transform="translate(0.000000, 25.000000)">
+                        <g id="Menu-/-Application-/-Inactive-Item-(with-Arrow)" fill="#BDBDBD" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
                             <text id="Item">
-                                <tspan x="21" y="15">Open in Browser</tspan>
+                                <tspan x="21" y="14">Listening Processes</tspan>
                             </text>
                         </g>
-                        <g id="Menu-/-Application-/-Selected-Item-(with-Shortcut)" transform="translate(0.000000, 19.000000)">
+                        <g id="Menu-/-Application-/-Inactive-Item-(with-Arrow)" transform="translate(0.000000, 88.000000)" fill="#BDBDBD" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
+                            <text id="Item">
+                                <tspan x="21" y="14">Preferences</tspan>
+                            </text>
+                        </g>
+                        <g id="Menu-/-Divider" transform="translate(0.000000, 154.000000)" fill="#000000" fill-opacity="0.07">
+                            <rect id="Divider" x="0" y="0" width="220" height="2"></rect>
+                        </g>
+                        <g id="Menu-/-Application-/-Item-(with-Arrow)" transform="translate(0.000000, 126.000000)" fill="#4C4C4C" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
+                            <text id="Item">
+                                <tspan x="21" y="14">About Port Manager</tspan>
+                            </text>
+                        </g>
+                        <g id="Menu-/-Application-/-Item-(with-Arrow)" transform="translate(0.000000, 107.000000)" fill="#4C4C4C" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
+                            <text id="Item">
+                                <tspan x="21" y="14">Open at Login</tspan>
+                            </text>
+                        </g>
+                        <g id="Menu-/-Application-/-Item-(with-Shortcut)" transform="translate(0.000000, 161.000000)" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
+                            <text id="Shortcut" fill="#444444">
+                                <tspan x="188.64082" y="14">⌘Q</tspan>
+                            </text>
+                            <text id="Item" fill="#4C4C4C">
+                                <tspan x="21" y="14">Quit</tspan>
+                            </text>
+                        </g>
+                        <g id="Menu-/-Divider" transform="translate(0.000000, 81.000000)" fill="#000000" fill-opacity="0.07">
+                            <rect id="Divider" x="0" y="0" width="220" height="2"></rect>
+                        </g>
+                        <g id="Menu-/-Application-/-Item-(with-Arrow)" transform="translate(0.000000, 57.000000)">
+                            <g id="Icons-/-Menu-/-Arrow" transform="translate(199.000000, 4.000000)" fill="#434343" fill-rule="evenodd">
+                                <polygon id="Arrow" points="0 10.5 7.49400542e-16 0.5 9 5.5"></polygon>
+                            </g>
+                            <text id="Item" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006" fill="#4C4C4C">
+                                <tspan x="21" y="14">5000 · Python</tspan>
+                            </text>
+                        </g>
+                        <g id="Menu-/-Application-/-Item-(with-Arrow)" transform="translate(0.000000, 19.000000)">
+                            <g id="Icons-/-Menu-/-Arrow" transform="translate(199.000000, 4.000000)" fill="#434343" fill-rule="evenodd">
+                                <polygon id="Arrow" points="0 10.5 7.49400542e-16 0.5 9 5.5"></polygon>
+                            </g>
+                            <text id="Item" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006" fill="#4C4C4C">
+                                <tspan x="21" y="14">3000 · Node</tspan>
+                            </text>
+                        </g>
+                        <g id="Menu-/-Application-/-Selected-Item-(with-Arrow)" transform="translate(0.000000, 38.000000)">
                             <rect id="Highlight" fill="#3F95FD" fill-rule="evenodd" x="0" y="0" width="220" height="19"></rect>
-                            <text id="Shortcut" font-family="LucidaGrande, Lucida Grande" font-size="14" font-weight="normal" letter-spacing="-0.150000006"></text>
-                            <text id="Item" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="normal" letter-spacing="-0.150000006" fill="#FFFFFF">
-                                <tspan x="21" y="15">Kill Process (id 4536)</tspan>
+                            <g id="Icons-/-Menu-/-Arrow-Selected" transform="translate(199.000000, 4.000000)" fill="#FFFFFF" fill-rule="evenodd">
+                                <polygon id="Arrow" points="0 10.5 7.49400542e-16 0.5 9 5.5"></polygon>
+                            </g>
+                            <text id="Item" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006" fill="#FFFFFF">
+                                <tspan x="21" y="14">8888 · httpd</tspan>
                             </text>
                         </g>
                     </g>
+                    <g id="Group-3" transform="translate(220.000000, 63.000000)">
+                        <g id="Menu-/-Application">
+                            <g id="Menu-/-Application-/-Item-(with-Arrow)" fill="#4C4C4C" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
+                                <text id="Item">
+                                    <tspan x="21" y="14">Open in Browser</tspan>
+                                </text>
+                            </g>
+                            <g id="Menu-/-Application-/-Selected-Item-(with-Shortcut)" transform="translate(0.000000, 39.000000)">
+                                <rect id="Highlight" fill="#3F95FD" fill-rule="evenodd" x="0" y="0" width="220" height="19"></rect>
+                                <text id="Shortcut" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006"></text>
+                                <text id="Item" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006" fill="#FFFFFF">
+                                    <tspan x="21" y="14">Kill Process (id 4536)</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Move-To" transform="translate(6.000000, 1.000000)" fill="#FFFFFF" font-family="Helvetica" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
+                        <text id="Item">
+                            <tspan x="0" y="14">3</tspan>
+                        </text>
+                    </g>
+                    <g id="Icons" transform="translate(48.000000, 2.000000)" fill="#000000" opacity="0.800000012">
+                        <path d="M265.805431,11.1230769 L265.805431,13.1538462 L251.717381,13.1538462 L251.717381,11.1230769 L265.805431,11.1230769 Z M249.704803,11.1230769 L249.704803,13.1538462 L247.692224,13.1538462 L247.692224,11.1230769 L249.704803,11.1230769 Z M262.786564,7.06153846 L262.786564,9.09230769 L251.717381,9.09230769 L251.717381,7.06153846 L262.786564,7.06153846 Z M249.704803,7.06153846 L249.704803,9.09230769 L247.692224,9.09230769 L247.692224,7.06153846 L249.704803,7.06153846 Z M265.805431,3 L265.805431,5.03076923 L251.717381,5.03076923 L251.717381,3 L265.805431,3 Z M249.704803,3 L249.704803,5.03076923 L247.692224,5.03076923 L247.692224,3 L249.704803,3 Z" id="Icon---Notification-Centre" style="mix-blend-mode: hard-light;"></path>
+                        <path d="M223.736249,1 C226.51504,1 228.767696,3.27301589 228.767696,6.07692308 C228.767696,7.23501953 228.383407,8.30254944 227.736482,9.15676252 L232.549733,13.9708733 L231.831747,14.6888586 L227.044859,9.90186735 C226.160352,10.6815115 225.002966,11.1538462 223.736249,11.1538462 C220.957458,11.1538462 218.704803,8.88083027 218.704803,6.07692308 C218.704803,3.27301589 220.957458,1 223.736249,1 Z M223.736249,2.01538462 C221.513216,2.01538462 219.711092,3.83379732 219.711092,6.07692308 C219.711092,8.32004883 221.513216,10.1384615 223.736249,10.1384615 C225.959282,10.1384615 227.761406,8.32004883 227.761406,6.07692308 C227.761406,3.83379732 225.959282,2.01538462 223.736249,2.01538462 Z" id="Icon---Spotlight" style="mix-blend-mode: hard-light;"></path>
+                        <path d="M110.497149,2 C111.285681,2 111.921517,2.59312135 111.993593,3.35151422 L112.0004,3.49554521 L112.0004,12.5044548 C112.0004,13.2724461 111.404223,13.9195803 110.641922,13.9930563 L110.497149,14 L93.5036506,14 C92.715119,14 92.079283,13.4068787 92.0072073,12.6484858 L92.0004,12.5044548 L92.0004,3.49554521 C92.0004,2.72755392 92.5965772,2.08041968 93.3588775,2.00694365 L93.5036506,2 L110.497149,2 Z M110.50019,3.04615385 L93.5006097,3.04615385 C93.2243515,3.04615385 93.0004,3.27275593 93.0004,3.55345113 L93.0004,12.4927027 C93.0004,12.7728753 93.2279865,13 93.5006097,13 L110.50019,13 C110.776448,13 111.0004,12.7733979 111.0004,12.4927027 L111.0004,3.55345113 C111.0004,3.27327858 110.772813,3.04615385 110.50019,3.04615385 Z M94.4967932,4 L109.504007,4 C109.744195,4 109.949594,4.17702934 109.992273,4.41048186 L110.0004,4.50043583 L110.0004,11.4995642 C110.0004,11.7392433 109.824801,11.9482323 109.593234,11.9917153 L109.504007,12 L94.4967932,12 C94.2566046,12 94.051206,11.8229707 94.0085272,11.5895181 L94.0004,11.4995642 L94.0004,4.50043583 C94.0004,4.2607567 94.1759993,4.05176771 94.4075659,4.00828472 L94.4967932,4 L109.504007,4 Z M113.503545,5.5 L115.0004,7 L115.0004,9 L113.503545,10.5 L113.0004,10.5 L113.0004,5.5 L113.503545,5.5 Z" id="Battery" style="mix-blend-mode: hard-light;"></path>
+                        <path d="M76.3936,0.3581 C80.1756,4.8931 80.1756,10.9851 76.3936,15.5171 C76.2946,15.6361 76.1516,15.6971 76.0096,15.6971 C75.8966,15.6971 75.7826,15.6591 75.6896,15.5811 C75.4776,15.4041 75.4486,15.0891 75.6256,14.8771 C79.0876,10.7271 79.0876,5.1501 75.6256,0.9991 C75.4486,0.7871 75.4776,0.4711 75.6896,0.2951 C75.9006,0.1171 76.2156,0.1441 76.3936,0.3581 Z M66.9892,2.2254 L66.9892,13.7744 C66.9892,13.9944 66.8462,14.0654 66.6712,13.9334 L63.2352603,10.976226 C63.1660277,10.9915284 63.0941607,10.9996 63.0205,10.9996 L59.9895,10.9996 C59.4395,10.9996 58.9895,10.5496 58.9895,9.9996 L58.9895,5.9996 C58.9895,5.4496 59.4395,4.9996 59.9895,4.9996 L63.0205,4.9996 C63.0836378,4.9996 63.1454577,5.00553015 63.2054304,5.01686096 L66.6712,2.0654 C66.8462,1.9344 66.9892,2.0054 66.9892,2.2254 Z M73.12,2.3735 C75.894,5.6495 75.894,10.2255 73.12,13.5015 C73.02,13.6185 72.88,13.6785 72.738,13.6785 C72.624,13.6785 72.509,13.6395 72.415,13.5595 C72.204,13.3815 72.178,13.0665 72.356,12.8555 C74.809,9.9595 74.809,5.9155 72.356,3.0205 C72.178,2.8095 72.204,2.4945 72.415,2.3155 C72.626,2.1385 72.94,2.1635 73.12,2.3735 Z M69.8229,4.3972 C71.6569,6.4812 71.6569,9.3942 69.8229,11.4782 C69.7249,11.5902 69.5869,11.6482 69.4479,11.6482 C69.3309,11.6482 69.2129,11.6072 69.1179,11.5242 C68.9109,11.3412 68.8899,11.0252 69.0729,10.8182 C70.5639,9.1222 70.5639,6.7532 69.0729,5.0572 C68.8899,4.8502 68.9109,4.5342 69.1179,4.3512 C69.3249,4.1692 69.6399,4.1902 69.8229,4.3972 Z" id="Volume" style="mix-blend-mode: hard-light;"></path>
+                        <path d="M38.8750672,12.5004319 C39.9099967,12.5045351 39.5956381,12.547619 40.5004,13 L38.5004,15 L36.5004,13 C37.4094909,12.5454545 37.0240128,12.5041322 38.1232936,12.5003757 L38.8750672,12.5004319 Z M38.5024408,8.70099261 C40.1118512,8.70099261 41.7285431,9.34092701 43.0017941,10.6156884 L43.222849,10.8472351 L42.6269306,11.5 C41.4881551,10.2470147 39.9963184,9.624564 38.5024408,9.62254306 C37.0945176,9.62444512 35.69021,10.1759321 34.5804646,11.2854282 L34.3759102,11.5 L33.7820327,10.8472351 C35.0840735,9.41842772 36.7942776,8.70099261 38.5024408,8.70099261 Z M38.5004,4.57624599 C41.0630122,4.57624599 43.6256245,5.60807207 45.6285058,7.66993623 L45.8759102,7.93303391 L45.2820327,8.58579881 C43.4065224,6.52645691 40.9575429,5.50183832 38.5004,5.49981738 C36.1475939,5.49981738 33.7985363,6.44268598 31.9579584,8.33198058 L31.7208082,8.58377786 L31.1269306,7.93101296 L31.3743349,7.66814823 C33.3772131,5.60807207 35.9397469,4.57624599 38.5004,4.57624599 Z M38.5004,0.500002016 C42.1187673,0.497981072 45.7371347,2.01570999 48.5004,5.04712593 L48.5004,5.04712593 L47.9065224,5.69989083 C45.3085633,2.84429701 41.9085633,1.42155246 38.5004,1.41953152 C35.0963184,1.42155246 31.6922367,2.84631796 29.0942776,5.70191177 L29.0942776,5.70191177 L28.5004,5.04914687 C31.2616245,2.01773093 34.8820327,0.500002016 38.5004,0.500002016 Z" id="Icon---WiFi" style="mix-blend-mode: hard-light;"></path>
+                        <path d="M8.5921,8.6264 C8.9741,8.2454 9.0631,8.2414 9.4531,8.6304 L9.4531,8.6304 L14.3001,14.3214 C14.6271,14.6474 14.4451,14.9694 13.9901,14.9694 L13.9901,14.9694 L4.0491,14.9694 C3.5941,14.9694 3.4131,14.6474 3.7361,14.3214 L3.7361,14.3214 Z M17.988,1.0005 L17.988,11.0005 L13.957,11.0005 L13.05,10.0005 L17.019,10.0005 L17.019,2.0005 L0.988,2.0005 L0.988,10.0005 L4.863,10.0005 L3.957,11.0005 L1.0125234e-13,11.0005 L1.0125234e-13,3.2225 L0.004,1.0005 L17.988,1.0005 Z" id="Icon---AirPlay" style="mix-blend-mode: hard-light;"></path>
+                    </g>
                 </g>
-                <g id="Move-To" transform="translate(6.000000, 1.000000)" fill="#FFFFFF" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
-                    <text id="Item">
-                        <tspan x="0" y="14">3</tspan>
+                <text id="Time" opacity="0.800000012" style="mix-blend-mode: hard-light;" font-family="SFProText-Medium, SF Pro Text" font-size="14" font-weight="400" letter-spacing="-0.150000006" fill="#000000">
+                    <tspan x="175" y="15">Mon 09:02</tspan>
+                </text>
+                <g id="Menu-/-Application-/-Item-(with-Shortcut)" transform="translate(220.000000, 83.000000)" font-family="SFProText-Regular, SF Pro Text" font-size="14" font-weight="normal" letter-spacing="-0.150000006">
+                    <text id="Shortcut" fill="#444444">
+                        <tspan x="189.413281" y="14">⌘C</tspan>
                     </text>
-                </g>
-                <g id="Icons" transform="translate(48.000000, 2.000000)" fill="#000000" opacity="0.800000012">
-                    <path d="M265.805431,11.1230769 L265.805431,13.1538462 L251.717381,13.1538462 L251.717381,11.1230769 L265.805431,11.1230769 Z M249.704803,11.1230769 L249.704803,13.1538462 L247.692224,13.1538462 L247.692224,11.1230769 L249.704803,11.1230769 Z M262.786564,7.06153846 L262.786564,9.09230769 L251.717381,9.09230769 L251.717381,7.06153846 L262.786564,7.06153846 Z M249.704803,7.06153846 L249.704803,9.09230769 L247.692224,9.09230769 L247.692224,7.06153846 L249.704803,7.06153846 Z M265.805431,3 L265.805431,5.03076923 L251.717381,5.03076923 L251.717381,3 L265.805431,3 Z M249.704803,3 L249.704803,5.03076923 L247.692224,5.03076923 L247.692224,3 L249.704803,3 Z" id="Icon---Notification-Centre" style="mix-blend-mode: hard-light;"></path>
-                    <path d="M223.736249,1 C226.51504,1 228.767696,3.27301589 228.767696,6.07692308 C228.767696,7.23501953 228.383407,8.30254944 227.736482,9.15676252 L232.549733,13.9708733 L231.831747,14.6888586 L227.044859,9.90186735 C226.160352,10.6815115 225.002966,11.1538462 223.736249,11.1538462 C220.957458,11.1538462 218.704803,8.88083027 218.704803,6.07692308 C218.704803,3.27301589 220.957458,1 223.736249,1 Z M223.736249,2.01538462 C221.513216,2.01538462 219.711092,3.83379732 219.711092,6.07692308 C219.711092,8.32004883 221.513216,10.1384615 223.736249,10.1384615 C225.959282,10.1384615 227.761406,8.32004883 227.761406,6.07692308 C227.761406,3.83379732 225.959282,2.01538462 223.736249,2.01538462 Z" id="Icon---Spotlight" style="mix-blend-mode: hard-light;"></path>
-                    <text id="Time" style="mix-blend-mode: hard-light;" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif" font-size="14" font-weight="400" letter-spacing="-0.150000006">
-                        <tspan x="130.000263" y="13">Mon 09:02</tspan>
+                    <text id="Item" fill="#4C4C4C">
+                        <tspan x="21" y="14">Copy URL</tspan>
                     </text>
-                    <path d="M110.497149,2 C111.285681,2 111.921517,2.59312135 111.993593,3.35151422 L112.0004,3.49554521 L112.0004,12.5044548 C112.0004,13.2724461 111.404223,13.9195803 110.641922,13.9930563 L110.497149,14 L93.5036506,14 C92.715119,14 92.079283,13.4068787 92.0072073,12.6484858 L92.0004,12.5044548 L92.0004,3.49554521 C92.0004,2.72755392 92.5965772,2.08041968 93.3588775,2.00694365 L93.5036506,2 L110.497149,2 Z M110.50019,3.04615385 L93.5006097,3.04615385 C93.2243515,3.04615385 93.0004,3.27275593 93.0004,3.55345113 L93.0004,12.4927027 C93.0004,12.7728753 93.2279865,13 93.5006097,13 L110.50019,13 C110.776448,13 111.0004,12.7733979 111.0004,12.4927027 L111.0004,3.55345113 C111.0004,3.27327858 110.772813,3.04615385 110.50019,3.04615385 Z M94.4967932,4 L109.504007,4 C109.744195,4 109.949594,4.17702934 109.992273,4.41048186 L110.0004,4.50043583 L110.0004,11.4995642 C110.0004,11.7392433 109.824801,11.9482323 109.593234,11.9917153 L109.504007,12 L94.4967932,12 C94.2566046,12 94.051206,11.8229707 94.0085272,11.5895181 L94.0004,11.4995642 L94.0004,4.50043583 C94.0004,4.2607567 94.1759993,4.05176771 94.4075659,4.00828472 L94.4967932,4 L109.504007,4 Z M113.503545,5.5 L115.0004,7 L115.0004,9 L113.503545,10.5 L113.0004,10.5 L113.0004,5.5 L113.503545,5.5 Z" id="Battery" style="mix-blend-mode: hard-light;"></path>
-                    <path d="M76.3936,0.3581 C80.1756,4.8931 80.1756,10.9851 76.3936,15.5171 C76.2946,15.6361 76.1516,15.6971 76.0096,15.6971 C75.8966,15.6971 75.7826,15.6591 75.6896,15.5811 C75.4776,15.4041 75.4486,15.0891 75.6256,14.8771 C79.0876,10.7271 79.0876,5.1501 75.6256,0.9991 C75.4486,0.7871 75.4776,0.4711 75.6896,0.2951 C75.9006,0.1171 76.2156,0.1441 76.3936,0.3581 Z M66.9892,2.2254 L66.9892,13.7744 C66.9892,13.9944 66.8462,14.0654 66.6712,13.9334 L63.2352603,10.976226 C63.1660277,10.9915284 63.0941607,10.9996 63.0205,10.9996 L59.9895,10.9996 C59.4395,10.9996 58.9895,10.5496 58.9895,9.9996 L58.9895,5.9996 C58.9895,5.4496 59.4395,4.9996 59.9895,4.9996 L63.0205,4.9996 C63.0836378,4.9996 63.1454577,5.00553015 63.2054304,5.01686096 L66.6712,2.0654 C66.8462,1.9344 66.9892,2.0054 66.9892,2.2254 Z M73.12,2.3735 C75.894,5.6495 75.894,10.2255 73.12,13.5015 C73.02,13.6185 72.88,13.6785 72.738,13.6785 C72.624,13.6785 72.509,13.6395 72.415,13.5595 C72.204,13.3815 72.178,13.0665 72.356,12.8555 C74.809,9.9595 74.809,5.9155 72.356,3.0205 C72.178,2.8095 72.204,2.4945 72.415,2.3155 C72.626,2.1385 72.94,2.1635 73.12,2.3735 Z M69.8229,4.3972 C71.6569,6.4812 71.6569,9.3942 69.8229,11.4782 C69.7249,11.5902 69.5869,11.6482 69.4479,11.6482 C69.3309,11.6482 69.2129,11.6072 69.1179,11.5242 C68.9109,11.3412 68.8899,11.0252 69.0729,10.8182 C70.5639,9.1222 70.5639,6.7532 69.0729,5.0572 C68.8899,4.8502 68.9109,4.5342 69.1179,4.3512 C69.3249,4.1692 69.6399,4.1902 69.8229,4.3972 Z" id="Volume" style="mix-blend-mode: hard-light;"></path>
-                    <path d="M38.8750672,12.5004319 C39.9099967,12.5045351 39.5956381,12.547619 40.5004,13 L38.5004,15 L36.5004,13 C37.4094909,12.5454545 37.0240128,12.5041322 38.1232936,12.5003757 L38.8750672,12.5004319 Z M38.5024408,8.70099261 C40.1118512,8.70099261 41.7285431,9.34092701 43.0017941,10.6156884 L43.222849,10.8472351 L42.6269306,11.5 C41.4881551,10.2470147 39.9963184,9.624564 38.5024408,9.62254306 C37.0945176,9.62444512 35.69021,10.1759321 34.5804646,11.2854282 L34.3759102,11.5 L33.7820327,10.8472351 C35.0840735,9.41842772 36.7942776,8.70099261 38.5024408,8.70099261 Z M38.5004,4.57624599 C41.0630122,4.57624599 43.6256245,5.60807207 45.6285058,7.66993623 L45.8759102,7.93303391 L45.2820327,8.58579881 C43.4065224,6.52645691 40.9575429,5.50183832 38.5004,5.49981738 C36.1475939,5.49981738 33.7985363,6.44268598 31.9579584,8.33198058 L31.7208082,8.58377786 L31.1269306,7.93101296 L31.3743349,7.66814823 C33.3772131,5.60807207 35.9397469,4.57624599 38.5004,4.57624599 Z M38.5004,0.500002016 C42.1187673,0.497981072 45.7371347,2.01570999 48.5004,5.04712593 L48.5004,5.04712593 L47.9065224,5.69989083 C45.3085633,2.84429701 41.9085633,1.42155246 38.5004,1.41953152 C35.0963184,1.42155246 31.6922367,2.84631796 29.0942776,5.70191177 L29.0942776,5.70191177 L28.5004,5.04914687 C31.2616245,2.01773093 34.8820327,0.500002016 38.5004,0.500002016 Z" id="Icon---WiFi" style="mix-blend-mode: hard-light;"></path>
-                    <path d="M8.5921,8.6264 C8.9741,8.2454 9.0631,8.2414 9.4531,8.6304 L9.4531,8.6304 L14.3001,14.3214 C14.6271,14.6474 14.4451,14.9694 13.9901,14.9694 L13.9901,14.9694 L4.0491,14.9694 C3.5941,14.9694 3.4131,14.6474 3.7361,14.3214 L3.7361,14.3214 Z M17.988,1.0005 L17.988,11.0005 L13.957,11.0005 L13.05,10.0005 L17.019,10.0005 L17.019,2.0005 L0.988,2.0005 L0.988,10.0005 L4.863,10.0005 L3.957,11.0005 L1.0125234e-13,11.0005 L1.0125234e-13,3.2225 L0.004,1.0005 L17.988,1.0005 Z" id="Icon---AirPlay" style="mix-blend-mode: hard-light;"></path>
                 </g>
             </g>
         </g>
