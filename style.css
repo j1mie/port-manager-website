@@ -151,7 +151,7 @@ img {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  background: #D9FFFE;
+  background: #fff;
   display: flex;
   margin: 1rem;
   align-items: center;
@@ -275,7 +275,7 @@ img {
 
   .timeline__line {
     width: 1px;
-    height: calc(100% - 2rem);
+    height: calc(100% - 3rem);
     background: #A4C1C0;
     position: absolute;
     top: 1rem;
