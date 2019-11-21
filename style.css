@@ -21,7 +21,6 @@ img {
 .brand  {
   display: flex;
   align-items: center;
-  padding-top: 4rem;
 }
 
 .brand__logo {
@@ -105,8 +104,6 @@ img {
 
 .hero__content {
   position: relative;
-  margin-top: -7rem;
-  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(238, 249, 249,1) 10%);
 }
 
 .hero__body {
@@ -229,6 +226,7 @@ img {
     position: absolute;
     left: 54%;
     z-index: 0;
+    top: 25%;
   }
 
   .hero {
