@@ -182,6 +182,7 @@ img {
   margin: auto;
   position: relative;
   display: flex;
+  height: auto;
 }
 
 .wallpaper {
@@ -221,6 +222,7 @@ img {
 
 .illustration {
   margin-top: 4rem;
+  height: auto;
 }
 
 /** Breakpoints for larger devices **/
