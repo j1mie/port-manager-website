@@ -14,47 +14,6 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="img/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" data-cfasync="false"></script>
-    <script>
-      window.addEventListener('load', function(){
-        window.cookieconsent.initialise({
-        revokeBtn: "<div class='cc-revoke'></div>",
-        type: "opt-in",
-        theme: "classic",
-        palette: {
-            popup: {
-                background: "#fff",
-                text: "#414D4D"
-              },
-            button: {
-                background: "#414D4D",
-                text: "#fff"
-              }
-          },
-        content: {
-            link: "Learn more",
-            href: "/terms.html"
-          },
-          onInitialise: function(status) {
-            if(status == cookieconsent.status.allow) myScripts();
-          },
-          onStatusChange: function(status) {
-            if (this.hasConsented()) myScripts();
-          }
-        })
-      });
-
-      function myScripts() {
-        window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-152754858-1',
-              { 'anonymize_ip': true }
-            );
-      }
-    </script>
   </head>
 
   <body>
@@ -199,5 +158,47 @@
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152754858-1"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+      window.addEventListener('load', function(){
+        window.cookieconsent.initialise({
+        revokeBtn: "<div class='cc-revoke'></div>",
+        type: "opt-in",
+        theme: "classic",
+        palette: {
+            popup: {
+                background: "#fff",
+                text: "#414D4D"
+              },
+            button: {
+                background: "#414D4D",
+                text: "#fff"
+              }
+          },
+        content: {
+            link: "Learn more",
+            href: "/terms.html"
+          },
+          onInitialise: function(status) {
+            if(status == cookieconsent.status.allow) myScripts();
+          },
+          onStatusChange: function(status) {
+            if (this.hasConsented()) myScripts();
+          }
+        })
+      });
+
+      function myScripts() {
+        window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-152754858-1',
+              { 'anonymize_ip': true }
+            );
+      }
+    </script>
   </body>
 </html>
